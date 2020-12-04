@@ -1,0 +1,59 @@
+/* media Query */
+@media(max-width:768px){
+  nav{
+    max-width: 100%;
+  }
+  #content.active{
+    width: 100%;
+  }
+  #sidebar.active{
+    margin-left: -100%;
+  }
+  .bio{
+   margin: 0 10px;
+  }
+ .about{
+   flex-direction: column;
+ }
+ .btn{
+   flex-direction: column;
+ }
+ .menu-bar{
+   display: block;
+ }
+ .hide{
+   display: block;
+ }
+ .btn__download,.btn__view{
+   width: 200px;
+   margin-top: 10px;
+ }
+ .about__text p{
+   width: 100%;
+ }
+ .about__img{
+   width: 100%;
+ }
+ .about__img img{
+  width: 100%;
+}
+.about-service__grid{
+ grid-template-columns: 1fr 1fr;
+}
+}
+
+
+@media(max-width:480px){
+  .about-service__grid{
+    grid-template-columns: 1fr;
+   }
+   .skills{
+   
+   grid-template-columns: 1fr;
+    
+  }
+  .projects{
+    grid-template-columns: 1fr;
+  }
+
+}
