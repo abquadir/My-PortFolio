@@ -93,7 +93,7 @@ a{
   position: fixed;
   right: 30px;
   bottom: 20px;
-  font-size: 50px;
+  font-size: 80px;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
@@ -256,7 +256,7 @@ padding: 1rem;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: dense;
   grid-gap: 20px;
-  margin-top: 40px;
+  margin: 40px 0;
 }
 .project{
   position: relative;
@@ -266,8 +266,8 @@ padding: 1rem;
   border-radius: 4px;
 }
 .project__img{
-  min-width: 40%;
-  width: 40%;
+  min-width: 30%;
+  width: 30%;
 }
 .project__img img{
   width: 100%;
@@ -275,7 +275,9 @@ padding: 1rem;
 }
 .project__text{
  margin: 10px 15px;
- line-height: 40px;
+}
+.project__text h3{
+  margin: 10px 0;
 }
 .project__text p{
   line-height: 20px !important;
@@ -302,6 +304,17 @@ padding: 1rem;
 
 .image__overlay:hover{
   opacity: 1;
+}
+.project-btn{
+  text-align: center;
+}
+.btn__project{
+  padding: 0.5rem 1rem;
+  color: #F7F6FB;
+  background-color: #706c61;
+  border-radius: 5px;
+  align-items: center;
+  
 }
 /* End of Project Section */
 
