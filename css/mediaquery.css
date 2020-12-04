@@ -4,10 +4,10 @@
     max-width: 100%;
   }
   #content.active{
-    width: 100%;
+    width: calc(100%-20%);
   }
   #sidebar.active{
-    margin-left: -100%;
+    margin-left: 0;
   }
   .bio{
    margin: 0 10px;
@@ -44,6 +44,21 @@
 
 
 @media(max-width:480px){
+  #sidebar{
+    margin-left: -100%;
+  }
+  #sidebar.active{
+    margin-left: 0%;
+  }
+  #content{
+    width: 90%;
+    margin-left: 0%;
+  }
+  #content.active{
+    width:calc(100%-10%);
+   
+    
+  }
   .about-service__grid{
     grid-template-columns: 1fr;
    }

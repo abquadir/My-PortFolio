@@ -75,7 +75,7 @@ a{
   transition: 0.5s;
 }
 .menu-bar{
-  display: none;
+  
   background-color: #F7F6FB;
   color: #222831;
   font-weight: bold;
@@ -93,7 +93,7 @@ a{
   position: fixed;
   right: 30px;
   bottom: 20px;
-  font-size: 40px;
+  font-size: 50px;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
