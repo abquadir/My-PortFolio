@@ -84,5 +84,18 @@
   .form__item{
     width: 100%;
   }
- 
+  .robo__project{
+    width: 100%;
+    text-align: start;
+  }
+  .robo__project h1{
+    font-size: 18px;
+}
+.robo__project h5{
+  width: 100% !important;
+  
+}
+.tech__req__details{
+  grid-template-columns: 1fr !important;
+}
 }

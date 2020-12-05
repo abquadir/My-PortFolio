@@ -1,0 +1,51 @@
+.robo__project{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.robo__project h1{
+    margin-bottom: 10px;
+}
+
+.robo__project h5{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.project__details{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1a1c20;
+    padding: 1rem ;
+   
+}
+
+.comp__details h3,.comp__icon{
+ margin-bottom: 10px;
+}
+.comp__req{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.comp__req__header{
+    display: flex;
+   margin: 15px 0;
+}
+
+.tech__req__details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+.tech__box{
+  position: relative;
+}
+.tech__header h3{
+    margin: 15px 0;
+}
+.client__box{
+    background-color: #1a1c20;
+    padding: 1rem;
+}
