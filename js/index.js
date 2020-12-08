@@ -46,3 +46,6 @@ $('.skill-per').each(function(){
     });
   });
 
+$('#contact-form').submit((e)=>{
+  
+})

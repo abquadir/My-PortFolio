@@ -19,6 +19,9 @@
     padding: 1rem ;
    
 }
+.link__color{
+    color: #AFA5D9;
+}
 
 .comp__details h3,.comp__icon{
  margin-bottom: 10px;
@@ -36,11 +39,13 @@
 .tech__req__details{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-auto-flow: dense;
 }
 .tech__box{
   position: relative;
+  
+  padding: 1rem 0;
 }
 .tech__header h3{
     margin: 15px 0;
@@ -48,4 +53,14 @@
 .client__box{
     background-color: #1a1c20;
     padding: 1rem;
+}
+.client__box h4,h5{
+    margin: 10px 0;
+}
+
+.inner__tech{
+    margin: 10px 0;
+}
+.inner__tech p{
+    margin: 10px 0;
 }

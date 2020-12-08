@@ -1,0 +1,9 @@
+.proj__overview{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.proj__over__header{
+    display: flex;
+    margin: 15px 0;
+}
