@@ -46,6 +46,16 @@ $('.skill-per').each(function(){
     });
   });
 
+  let username = document.getElementById()
+
 $('#contact-form').submit((e)=>{
-  
+  Email.send({
+    Host : "smtp.gmail.com",
+    Username : "username",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
 })
