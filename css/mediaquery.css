@@ -1,4 +1,25 @@
 /* media Query */
+@media(max-width:1080px){
+
+  .container{
+    padding: 0 20px;
+    margin-top: 0;
+    width: 70%;
+    margin-left: 30%;
+    color: #F7F6FB;
+    transition: 0.5s;
+  
+  }
+  nav{
+  max-width: 30%;
+
+  }
+  .about-service__grid{
+ grid-template-columns:  1fr 1fr 1fr;
+
+  }
+}
+
 @media(max-width:768px){
   nav{
     max-width: 100%;
