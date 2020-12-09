@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authentication</title>
+    <title>Weather</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/mediaquery.css">
@@ -84,9 +84,9 @@
     <div class="container" id="content">
         <i class='bx bx-menu-alt-left menu-bar'></i>
         <div class="robo__project">
-            <h1>Case Study : Login Logout Authentication </h1>
-            <h5>The Aim of this project is to authenticate a user based on whether he/she os registered on our database or
-                not and to verify the login credentials of the registered users. </h5>
+            <h1>Case Study : Weather Application</h1>
+            <h5>The Aim of this project is to get the weather data across the globe using the openweathermap api , which is third party
+                api provider which provides the json response with the help of the api call , data in json . </h5>
         </div>
         <div class="separator"></div>
         <div class="proj__overview">
@@ -94,8 +94,11 @@
                 <div class="color"></div>
                 <h1>Project Overview</h1>
             </div>
-            <p>The project consist of the front-end as well as back-end . In the front-end part Bootstrap framework is used for the designing part
-                and in the back-end mongodb is used for store the user data and along with mongodb , node js is used to setup the server and to handle the routes for the smooth routing over the different pages. </p>
+            <p>User can view the weather in his/her current location.
+                User can toggle the temperature unit (Celsius).
+                Weather icon or background image will change depending on day time and night time and also 
+            weather icon changes depending on the weather condition. Like rainy , cold etc.
+            </p>
         </div>
         <div class="comp__req">
             <div class="comp__req__header">
@@ -126,18 +129,14 @@
                    </div>
                </div>
                <div class="tech__header">
-                <h3>Back-End Technologies</h3>
+                <h3>Server-Scripting</h3>
                 <div class="tech__box">
                     <div class="inner__tech">
                         <div class="inner__tech">
-                            <h4>Node Js</h4>
-                            <p>Node Js is used for non-blocking, event-driven servers, due to its single-threaded nature. It's used for traditional web sites and back-end API services, but was designed with real-time, push-based architectures in mind.
+                            <h4>JavaScript</h4>
+                            <p>JavaScript is used for the fetching the dynamic data from the api with the help of async and await function.
+                                It is also used for the dynamic change of the weather icon depending on the weather conditions of location.
                             </p>
-                        </div>
-                        <div class="inner__tech">
-                            <h4>Mongo DB</h4>
-                            <p>MongoDB makes use of collections and documents. Documents consist of key-value pairs
-                                 which are the basic unit of data in MongoDB.</p>
                         </div>
                     </div>
                     
@@ -154,39 +153,34 @@
             
                <div class="proj__design__img">
                 <div class="inner__proj__img">
-                    <img src="./assets/img/register.png" alt="">
+                    <img src="./assets/img/weather1.png" alt="">
                     <div class="proj__overlay">
-                       <h4>Register page</h4>
+                       <h4>Sydney</h4>
                        <div class="proj__overlay__desc">
-                           <p>The Form consist of the different input field
-                            which ask user to mandatory fill the fields and get register into our
-                            database.</p>
+                           <p>The Weather of the sydney is 16'C at that present time with 63% humidity along with the few clouds over it.</p>
                          
                        </div>
                        
                     </div>
                 </div>
                 <div class="inner__proj__img">
-                    <img src="./assets/img/login.png" alt="">
+                    <img src="./assets/img/weather2.png" alt="">
                     <div class="proj__overlay">
-                        <h4>Login page</h4>
+                        <h4>Patna</h4>
                         <div class="proj__overlay__desc">
-                            <p>Once user have register in our database they can login
-                                by using the login form with their register username and password .
-                            </p>
+                            <p>The Weather of the patna is 16'C at that present time with 93% humidity along with the few clouds over it.</p>
+
                            
                         </div>
                      </div>
                 </div>
                 <div class="inner__proj__img">
-                    <img src="./assets/img/successlogin.png" alt="">
+                    <img src="./assets/img/weather3.png" alt="">
                     <div class="proj__overlay">
-                       <h4>Success page</h4>
+                       <h4>Mumbai</h4>
                        <div class="proj__overlay__desc">
-                           <p>After the succesfull authorization on the login page
-                               user will get this page as the main page.
+                        <p>The Weather of the mumbai is 27'C at that present time with 54% humidity along with the few clouds over it.</p>
 
-                           </p>
                          
                        </div>
                        

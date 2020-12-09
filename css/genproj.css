@@ -7,3 +7,46 @@
     display: flex;
     margin: 15px 0;
 }
+
+.proj__design__img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.inner__proj__img{
+    width: 100%;
+    position: relative;
+}
+.inner__proj__img img{
+    width: 80%;
+    height: 100%;
+}
+
+
+.proj__overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+
+  justify-content: center;
+  opacity: 0;
+  transition: opacity linear 0.5s;
+  flex-direction: column;
+  padding: 1rem;
+  
+}
+
+.proj__overlay:hover{
+    opacity: 1;
+    transition: linear 0.5s;
+  }
+  .proj__overlay__desc,.proj__overlay__desc p{
+    margin: 10px 0;
+    transition: linear 0.7s;
+
+  }

@@ -50,6 +50,9 @@
 .project__text h3{
   font-size: 15px;
 }
+.resume__content{
+  width: 100% !important;
+}
 }
 
 
@@ -95,7 +98,20 @@
   width: 100% !important;
   
 }
-.tech__req__details{
+.tech__req__details,.proj__design__img{
   grid-template-columns: 1fr !important;
+}
+.resume__content__header,.resume__summary,.resume__knowlegde{
+  flex-direction: column;
+}
+.resume__social{
+  padding: 15px 0;
+  justify-content: flex-start;
+}
+.resume__img{
+  text-align: center;
+}
+.resume__skill,.resume__edu{
+  width: 100% !important;
 }
 }

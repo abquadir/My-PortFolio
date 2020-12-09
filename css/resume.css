@@ -1,0 +1,86 @@
+.resume__header{
+    text-align: center;
+}
+
+.resume__header h2{
+    margin-bottom: 15px;
+}
+
+.resume__header a{
+    margin: 15px 0 ;
+    padding: 0.5rem  1rem;
+    background-color: #34626c;
+    color: #F7F6FB;
+    border-radius: 4px;
+    
+}
+
+.resume__header a:hover{
+    background-color: #03506f;
+    transition: linear 0.5s;
+}
+
+.resume__content{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1a1c20;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.resume__content__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume__summary{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.resume__summary__desc h4{
+   margin: 20px;
+}
+.resume__img img{
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+}
+
+.resume__knowlegde,.resume__edu__header{
+    display: flex;
+}
+
+.head-color{
+    width: 5px;
+    height: 25px;
+    background-color: #F7F6FB;
+    margin-right: 10px;
+    
+}
+
+.resume__edu{
+    width: 50%;
+}
+
+.skill__tech {
+    padding:.9rem 1rem;
+}
+.skill__tech{
+    line-height: 25px;
+}
+.edu__desc,.edu__desc__clg{
+    padding: .5rem ;
+    line-height: 25px;
+}
+
+.intership__desc,.project__desc{
+    padding: 1rem;
+    line-height: 25px;
+}
+.resume__footer{
+    text-align: center;
+}
+.resume__footer a{
+    padding: 0 1rem;
+}
