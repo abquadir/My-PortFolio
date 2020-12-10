@@ -121,7 +121,7 @@ a{
 .about__img img{
   width: 75%;
   height: 250px;
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 
 .about__text{
