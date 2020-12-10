@@ -27,7 +27,7 @@
   .about__img{
     width: 60% !important;
     padding: 1rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   #sidebar{
     margin-left: -100%;
@@ -47,6 +47,7 @@
   }
  .about{
    flex-direction: column;
+   flex-direction: column-reverse;
  }
  
  .btn{
