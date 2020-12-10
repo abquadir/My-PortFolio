@@ -24,6 +24,11 @@
   nav{
     max-width: 100%;
   }
+  .about__img{
+    width: 60% !important;
+    padding: 1rem;
+    margin: 0 auto;
+  }
   #sidebar{
     margin-left: -100%;
   }
