@@ -109,24 +109,23 @@
     </div>
     <div class="separator"></div>
 </div>
+<a href="#">
+    <i class='bx bxs-chevron-up-circle' id="topbtn" ></i>
+</a>
 <h1 class="form_-header">Connect with Me</h1>
 <div class="contact__form">
     <form action="">
         <div class="form__item">
-            <input type="text" id="username" name="name" placeholder="Name">
+            <input type="text" id="username" name="name" required placeholder="Name">
         </div>
         <div class="form__item">
-            <input type="email" id="usermail" name="email" placeholder="Email">
-        </div>
-        <a href="#">
-            <i class='bx bxs-chevron-up-circle' id="topbtn" ></i>
-        </a>
-         
+            <input type="email" id="usermail" name="email" required placeholder="Email">
+        </div>  
       <div class="form__item">
-        <textarea name="" id="usermessage" cols="20" rows="7" placeholder="Enter the message"></textarea>
+        <textarea name="" id="usermessage" cols="20" rows="7" required placeholder="Enter the message"></textarea>
       </div>
        <div class="form__item">
-        <input class="form__btn" type="submit" value="Send Now">
+        <input class="form__btn" id="submitbtn" type="submit" value="Send Now">
        </div>
     </form>
 </div>
@@ -134,11 +133,17 @@
 
     </div>
 
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
   <script src="js/index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_kOqJQH98DZL0taSPT6Ira");
+})();
+</script>
 </body>
 </html>

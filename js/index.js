@@ -46,19 +46,33 @@ $('.skill-per').each(function(){
     });
   });
 
-  let username = document.getElementById('#username')
-  let usermail = document.getElementById('#usermail')
-  let usermessage = document.getElementById('#usermessage')
+  let username = document.getElementById('username')
+  let usermail = document.getElementById('usermail')
+  let usermessage = document.getElementById('usermessage')
+  let submitBtn = document.getElementById("submitbtn")
 
-
-$('#contact-form').submit((e)=>{
-  Email.send({
-    Host : "smtp.gmail.com",
-    Username : username,
-    To : 'abquadir73@gmail.com',
-    From : usermail,
-    Body : usermessage
-}).then(
-  message => alert(message)
-);
-})
+  submitBtn.addEventListener('click',(params)=>{
+    params.preventDefault()
+    if(!usermail.value || !username.value || !usermessage.value){
+      swal("Not Good", "Please Fill all the fields!", "error");
+    }else{
+      let tempParams = {
+        to_name : username.value,
+        from_name : usermail.value,
+        message : usermessage.value
+      }
+      emailjs.send('service_v37x3tn','template_piymxse',tempParams)
+      .then((res)=>{
+        swal({
+          title: "Form Submitted!",
+          text: "You clicked the button!",
+          icon: "success",
+        });
+        usermail.value=""
+        username.value=""
+        usermessage.value=""
+      })
+    }
+   
+    
+  })
